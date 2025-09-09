@@ -11,6 +11,7 @@ g++ -std=c++11 general_modular_graphs.cpp -o gmg
 
 Then the executable gmg can be called as follows for weighted networks:
 ./gmg -l <value> -nmin <value> -nmax <value> -ov <value> -w
+
 For unweighted networks just skip the flag w
 
 If you use this code for research purpose, please cite the following article:
