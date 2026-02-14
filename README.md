@@ -14,11 +14,11 @@ w  =  a flag if given the graph that is produced is weighted, otherwise unweight
 
 To run the model first the code need to be compiled as follows:
 
-g++ -std=c++11 general_modular_graphs.cpp -o gmg
+g++ -std=c++11 general_modular_graph.cpp -o gmg
 
 Then the executable gmg can be called as follows for weighted networks:
 
-./gmg -l <value> -nmin <value> -nmax <value> -ov <value> -w
+./gmg -l <value> -nmin <value> -nmax <value> -mu <value> -ov <value> -w
 
 For unweighted networks just skip the flag w
 
